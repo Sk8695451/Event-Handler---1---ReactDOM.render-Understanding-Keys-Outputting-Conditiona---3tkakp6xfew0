@@ -1,9 +1,12 @@
 {
   "name": "react-boilerplate",
+  "homepage": "https://Sk8695451.github.io/https://github.com/Sk8695451/Event-Handler---1---ReactDOM.render-Understanding-Keys-Outputting-Conditiona---3tkakp6xfew0",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "cypress run  --headless --reporter mochawesome",
     "start": "webpack-dev-server --mode development --watch --open --hot --port=3000",
     "build": "webpack --mode production"
@@ -12,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
